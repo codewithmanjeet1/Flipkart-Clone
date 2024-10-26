@@ -1,0 +1,117 @@
+.nab_bg {
+    background-color: #ffffff;
+
+}
+
+.input_area {
+    width: 23rem;
+    padding: 10px 10px 10px 45px;
+    background-color: #f0f5ff;
+    color: #75797d;
+    border: none;
+}
+
+.header_btn ul li {
+    padding: 0 30px;
+}
+
+li.nav-item {
+    margin-right: 60px;
+    cursor: pointer;
+
+}
+
+.input_area:focus {
+    box-shadow: none;
+}
+
+.user_btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.user_btn:hover {
+    background-color: rgb(42, 85, 229);
+    color: #fff !important;
+
+}
+
+
+form.d-flex i {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.header_btn ul li:hover {
+    cursor: pointer;
+}
+
+form.d-flex i,
+.user_btn i,
+ul li a i {
+    color: #75797d;
+    font-size: larger;
+    padding-right: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media (max-width: 994px) {
+    .header_fixed {
+        position: absolute;
+        width: 70%;
+        height: 100vh;
+        background-color: #ffffff;
+        transition: all ease-in 0.2s;
+        left: 0px;
+        top: 63px;
+        z-index: 1;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding-left: 25px;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 10px;
+        padding-left: 5px;
+    }
+
+    .form_control {
+        margin-top: 5px;
+    }
+
+}
+
+.login_card:hover {
+    content: "";
+    top: 50px;
+    position: absolute;
+    background-color: #75797d;
+    width: min-content(50%, 300px);
+}
+
+.login_card_btn:hover {
+    background-color: #75797d;
+    background-color: rgb(26, 88, 245);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.show_hover{
+    display: none ;
+    color: #fff;
+ 
+}
+.show_hover:hover{
+
+    display: block ;
+}
+
+.login_card_btn:hover>a {
+    color: #fff !important;
+    text-decoration: none;
+}

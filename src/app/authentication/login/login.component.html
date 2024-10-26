@@ -1,0 +1,38 @@
+<app-header></app-header>
+<div class="container auth_bg mt-5 ">
+
+    <div class="row py-4">
+        <div class="col-md-3 d-flex flex-column justify-content-center  offset-lg-2 login_left">
+            <div class="ps-lg-4">
+                <h2 class="pt-5">Login</h2>
+                <p class="auth_text_sl">Get access to your Orders, <br> Wishlist and Recommendations</p>
+            </div>
+            <figure class="figure bottom_login_img  ">
+                <img src="assets/images/logo/login_img.png" class="figure-img img-fluid rounded  "
+                    alt="A generic square placeholder image with rounded corners in a figure.">
+
+            </figure>
+        </div>
+
+        <div class="col-md-5 auth_right ">
+            <form class="p-3">
+                <div class="form-group">
+                    <input type="email" class="form-control p-3" id="email" aria-describedby="emailHelp"
+                        placeholder="Enter email / Phone Number">
+                    <small id="emailHelp" class="form-text text-muted mp-5">Please enter valid Email ID/Mobile number
+                    </small>
+                </div>
+                <p class="mt-4 mb-1 login_pplicy_text">By continuing, you agree to Flipkart's Terms of Use and Privacy
+                    Policy.</p>
+
+                <button class="btn mt-1 btn-otp w-100 p-3"> Request OTP</button>
+
+                <div class="creat_account">
+                    <a routerLink="/auth/singup" class="text-decoration-none"> <b>New to Flipkart? Create an account</b>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

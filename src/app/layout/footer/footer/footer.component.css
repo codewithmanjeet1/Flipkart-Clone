@@ -1,0 +1,36 @@
+.footer_bg {
+    background: #212121;
+    color: #fff;
+}
+
+.border_right {
+    border-right: #6d6d6d 1px solid;
+
+}
+
+.footer_head {
+    color: #7d7d7d;
+}
+
+.footer_head {
+    margin: 10px 0;
+    font-size: 14px !important;
+}
+
+.footer_para p {
+    margin-bottom: 0px !important;
+    color: #fff;
+    font-size: 13px !important;
+}
+
+a {
+    color: #fff;
+    font-size: 14px !important;
+}
+
+a:hover {
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+
+/* 878787 */

@@ -1,0 +1,68 @@
+.auth_bg {
+    /* padding-top: 3rem; */
+    background-color: #f0f2f5;
+}
+
+.login_left {
+
+    background-color: #2975f0;
+    color: #ffffff;
+}
+
+.auth_right {
+    background-color: #fff;
+
+    border-radius: 0px;
+    background: #ffffff;
+    box-shadow: 8px 8px 16px #d1d1d1, 5px -8px 16px #ffffff;
+}
+
+#emailHelp {
+    color: red !important;
+    font-size: 13px;
+}
+
+.bottom_login_img {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+}
+
+.form-control {
+    border-radius: 0px;
+    border: none !important;
+    border-bottom: 1px solid #3452e8 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.form-control:focus {
+    border-bottom: 2px solid #3452e8 !important;
+    box-shadow: none !important;
+}
+
+.login_pplicy_text {
+    font-size: 13px;
+}
+
+.btn-otp {
+    border-radius: 0px;
+    color: #fff;
+    background-color: #fa661b;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.creat_account {
+    text-align: center;
+    margin-top: 17rem;
+
+}
+
+.auth_text_sl {
+    color: #d1d1d1;
+}

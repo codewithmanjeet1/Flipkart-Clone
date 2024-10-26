@@ -1,0 +1,15 @@
+.category_section {
+    background-color: #ffffff;
+}
+
+figure {
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+.category_section div.row{
+    margin-top: 3.5rem;
+} 
+
+   
+}
